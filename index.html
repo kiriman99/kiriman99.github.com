@@ -69,8 +69,13 @@ form.example::after {
     background: #333; /* Цвет фона при наведении курсора мыши */
    }
     body {
-    background: url(img/33.jpg) no-repeat; background-size: 100%; text-align: center; width: 100%; height: auto;
-		}
+    background: url(img/33.jpg) no-repeat; background-size: 100%; text-align: center; max-width: 100%; height: auto;
+	@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
+}
+   
 {
     box-sizing: border-box;
 }
