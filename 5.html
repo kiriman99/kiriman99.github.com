@@ -1,0 +1,79 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(27,27,27);  
+}  
+button {   
+       background-color: #e8e8e8;   
+       width: 100%;  
+        color: black;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #3a3a39;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid black;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: Silver;  
+    }   
+	a.nubex {
+	 margin: 0 auto;
+     padding: 30px 0;
+     font: 1 20px 'Oswald', sans-serif;
+     color: #fff;
+     text-transform: uppercase;
+     letter-spacing: 6px;
+	color: #fff;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	padding: 1em 2em; /* Отступ от текста до рамки */
+	}
+	a.nubex:active {
+
+	}
+
+</style>   
+</head>    
+<body>    
+    <a href="index.html"" class="nubex"><center>Главная</center></a> 
+    <form>  
+        <div class="container">   
+            <label>Имя пользователя : </label>   
+            <input type="text" placeholder="Введите имя пользователя" name="username" required>  
+            <label>Пароль : </label>   
+            <input type="password" placeholder="Введите пароль" name="password" required>  
+            <button type="submit">авторизоваться</button>   
+            <input type="checkbox" checked="checked"> Запомнить меня  
+            <button type="button" class="cancelbtn"> отмена</button>   
+            Забыли <a href="#"> пароль? </a>   
+        </div>   
+    </form>     
+</body>     
+</html>  

@@ -1,0 +1,37 @@
+body{
+background-image: url(img/city.jpg); no-repeat; background-size: 100%; text-align: center; 
+background-size: cover;
+}
+img.background {
+ <img
+sizes="(max-width: 1107px) 100vw, 1107px"
+srcset="img/city.jpg
+city_ftf8ww_c_scale,w_200.jpg 200w,
+city_ftf8ww_c_scale,w_468.jpg 468w,
+city_ftf8ww_c_scale,w_676.jpg 676w,
+city_ftf8ww_c_scale,w_843.jpg 843w,
+city_ftf8ww_c_scale,w_1066.jpg 1066w,
+city_ftf8ww_c_scale,w_1107.jpg 1107w"
+src="city_ftf8ww_c_scale,w_1107.jpg"
+alt="">
+  
+  @media screen and (max-width: 640px){
+img.bg {
+left: 50%;
+margin-left: 320px; 
+}
+
+body {
+  font-family: Roboto, sans;
+}
+
+header {
+  text-shadow: 0 1px 8px rgba(0,0,0,.2);
+  position: center;
+  top: 24px;
+  left: 24px; 
+<p style="font-size:2vw;"></p>
+}
+
+
+

@@ -1,0 +1,56 @@
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(27,27,27);  
+}  
+.container {  
+    padding: 50px;  
+  background-color: Silver;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #A9A9A9;  
+  color: black;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+	a.nubex {
+	 margin: 0 auto;
+     padding: 30px 0;
+     font: 1 20px 'Oswald', sans-serif;
+     color: #fff;
+     text-transform: uppercase;
+     letter-spacing: 6px;
+	color: #fff;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	padding: 1em 2em; /* Отступ от текста до рамки */
+	}
+	a.nubex:active {
+
+	}
